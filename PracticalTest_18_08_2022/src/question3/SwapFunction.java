@@ -4,11 +4,11 @@ public class SwapFunction {
 
 	public static void main(String[] args) {
 		
-		int first = 5;
+		int first = 15;
 		int second = 10;
 		
 		first = first + second; //15
-	    second = first - second;//5-10 = 5
+	    second = first - second;//15-10 = 5
 	    first = first - second;//15-5 =10
 	    System.out.println("first :"+first);
 	    System.out.println("second :"+second);
