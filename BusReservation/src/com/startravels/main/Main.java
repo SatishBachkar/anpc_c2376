@@ -19,11 +19,13 @@ public class Main {
 		case 1 :
 			boolean busDetails = BusView.addBus(); 
 				System.out.println("Bus Added Successfully");
+				System.exit(0);
 			break;
 			
 		case 2 :
 			boolean addRoute = BusView.addBusRoute(); 
 				System.out.println("Bus Added Successfully");
+				System.exit(0);
 			break;
 			
 			default : System.out.println("Entered Invalid input");
