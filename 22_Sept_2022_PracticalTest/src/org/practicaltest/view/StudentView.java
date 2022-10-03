@@ -15,7 +15,7 @@ public class StudentView {
 	  Scanner sc = new Scanner(System.in);
 	  
 	  TreeSet<org.practicaltest.model.Student> studentDetails= new TreeSet<>();
-	  for(int i =1; i<=2;i++) {
+	  for(int i =1; i<=10;i++) {
 		  System.out.println("enter id :");
 		  id = sc.nextLine();
 		  System.out.println("enter name :");

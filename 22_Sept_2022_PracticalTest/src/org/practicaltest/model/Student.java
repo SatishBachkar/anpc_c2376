@@ -6,9 +6,6 @@ public class Student implements Comparable<Student>{
 	private String studentName;
 	private String dateOfAdd;
 	
-	
-
-
 	public Student(String studentId, String studentName, String dateOfAdd) {
 		super();
 		this.studentId = studentId;
