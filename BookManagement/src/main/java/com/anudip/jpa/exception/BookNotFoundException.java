@@ -1,7 +1,9 @@
 package com.anudip.jpa.exception;
 
 public class BookNotFoundException extends RuntimeException{
-	public static final int id = 1;
+
+	private static final long serialVersionUID = 1L;
+	
 
 	public BookNotFoundException(String message) {
 		super(message);
