@@ -13,8 +13,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
 	
 	@ExceptionHandler(BookNotFoundException.class)
-	public ResponseEntity<ErrorMessage> bookException
-	(BookNotFoundException ex , WebRequest wr){
+	public ResponseEntity<ErrorMessage> bookException(BookNotFoundException ex , WebRequest wr){
 		ErrorMessage em = new ErrorMessage(HttpStatus.NOT_FOUND,ex.getMessage());
 		return  ResponseEntity.status(HttpStatus.NOT_FOUND).body(em);
 	}

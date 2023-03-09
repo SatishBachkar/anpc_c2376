@@ -7,8 +7,7 @@ import org.springframework.core.io.Resource;
 import com.spring.SpringEx.entity.Company;
 
 public class App {
-	@SuppressWarnings({"resource","deprecation"})
-	
+	//@SuppressWarnings({"resource","deprecation"})
     public static void main( String[] args ){
 		
       ApplicationContext c = new ClassPathXmlApplicationContext("applicationContext.xml");

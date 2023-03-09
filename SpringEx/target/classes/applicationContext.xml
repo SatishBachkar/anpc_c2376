@@ -6,13 +6,16 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans  
                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
                
+
+               
 <bean id ="emp" class = "com.spring.SpringEx.entity.Employee">
  <constructor-arg name="empName"  value="Satish"></constructor-arg>
  <constructor-arg name="empEmail"  value="satish@gmail.com"></constructor-arg>
  <constructor-arg name="empDept"  value="Mechanical"></constructor-arg>
  </bean>
  
- <bean id ="comp" class = "com.spring.SpringEx.entity.Company">
+ <bean id ="comp" class = "com.spring.SpringEx.entity.Company"
+ >
  <constructor-arg name="name"  value="Anudip"></constructor-arg>
  <constructor-arg name="location"  value="bhosari"></constructor-arg>
  <constructor-arg name="headOffice"  value="Mumbai"></constructor-arg>
